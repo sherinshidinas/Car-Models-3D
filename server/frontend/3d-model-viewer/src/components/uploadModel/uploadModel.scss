@@ -1,0 +1,59 @@
+.upload-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  // background-color: rgb(227, 227, 234);
+  background: #f9f9f9;
+
+  .container {
+    width: 350px;
+    padding: 60px 0px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+
+    h4 {
+      text-align: center;
+      color: rgb(53, 53, 89);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      label {
+        font-size: 12px;
+        color: #404145;
+        font-weight: 550;
+        span {
+          font-size: 10px;
+          font-weight: 100;
+          color: #404145;
+        }
+      }
+
+      input,
+      textarea {
+        font-size: 11px;
+        outline: none;
+        padding: 5px;
+      }
+
+      button {
+        border: none;
+        padding: 10px;
+        background-color: #2c3658;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 3px;
+      }
+    }
+  }
+}
